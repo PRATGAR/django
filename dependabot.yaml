@@ -1,0 +1,9 @@
+version: 2
+    updates:
+      - package-ecosystem: "npm"  # Adjust according to your dependency type
+        directory: "/"
+        schedule:
+          interval: "daily"
+        commit-message:
+          prefix: "fix"
+        versioning-strategy: "increase"
